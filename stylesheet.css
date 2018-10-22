@@ -13,6 +13,9 @@
     display:none;
 }
 
-body {
-    text-align: center;
+#logout {
+    visibility: hidden;
+}
+#submit {
+    visibility: visible;
 }
