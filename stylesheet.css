@@ -19,3 +19,8 @@
 #submit {
     visibility: visible;
 }
+
+.MyFooter {
+    height: 3em;
+    font-style: italic;
+}

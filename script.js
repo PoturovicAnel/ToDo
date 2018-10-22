@@ -3,12 +3,12 @@ $(document).ready(function() {
 
     $('#submit').click(function() {
 
-        event.preventDefault(); // prevent PageReLoad
+        event.preventDefault(); 
 
         var ValidUsername = $('#username').val() === 'Anel'; 
         var ValidPassword = $('#password').val() === 'Test'; 
 
-        if (ValidUsername === true && ValidPassword === true) { // if ValidEmail & ValidPassword
+        if (ValidUsername === true && ValidPassword === true) {
             $('.LoggedIn').css('display', 'block');
             $('.NotLoggedIn').hide();
             $("#logout").css('visibility', 'visible');
@@ -16,7 +16,7 @@ $(document).ready(function() {
             
         }
         else {
-            $('.NotLoggedIn').css('display', 'block'); // show error msg
+            $('.NotLoggedIn').css('display', 'block'); 
             $('.LoggedIn').hide();
             $("#logout").css('visibility' , 'hidden');
             $("#submit").css('visibility' , 'visible');
