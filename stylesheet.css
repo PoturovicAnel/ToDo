@@ -3,6 +3,16 @@
 
 }
 
-.PNotLoggedIn {
+.NotLoggedIn {
     color: red;
+    display:none;
+}
+
+.LoggedIn {
+    color: blue;
+    display:none;
+}
+
+body {
+    text-align: center;
 }
