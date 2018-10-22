@@ -2,3 +2,7 @@
     height: 5.5em;
 
 }
+
+.PNotLoggedIn {
+    color: red;
+}
